@@ -1,1 +1,15 @@
-<h1>Hello from automated deploy!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy Quiz</title>
+</head>
+<body>
+  <div id="result"></div>
+
+  <script>
+    document.querySelector("#result").innerHTML = atob(`
+PGgxPkQxMDAxLiBTdW0gdGhlIHZhbHVlIGNvbHVtbjwvaDE+Cjx0YWJsZT4KICA8dHI+PHRoPnZhbHVlPC90aD48L3RyPgogIDx0cj48dGQ+MTA8L3RkPjwvdHI+CiAgPHRyPjx0ZD4yMDwvdGQ+PC90cj4KICA8dHI+PHRkPjMwPC90ZD48L3RyPgo8L3RhYmxlPgoKPHA+UG9zdCB5b3VyIGFuc3dlciB0byBodHRwczovL3NZQlZNZFMtU1VCTUlULlJFU0lERVIuT05SRU5ERVIuYXBpL3N1Ym1pdDwvcD4=
+`);
+  </script>
+</body>
+</html>
